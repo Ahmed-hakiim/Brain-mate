@@ -1,0 +1,31 @@
+.theRelative{
+    display: flex;
+    justify-content: space-around;
+}
+.theRelative>div>form>img{
+    height: 40vh;
+    width: 40vh;
+}
+.theRelative>div>form{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+}
+.theRelative>div>form>input{
+    padding: 2vh;
+    border-radius: 50px;
+    border: 2 solid rgb(8, 87, 8);
+    border-color: green;
+}
+.theRelative>div>form>button{
+    width: 50%;
+    align-self: center;
+    padding: 1vh;
+    border: 0;
+    background-color: rgb(95, 189, 95);
+    color: white;
+    border-radius: 50vh;
+    font-size: large;
+    cursor: pointer;
+}

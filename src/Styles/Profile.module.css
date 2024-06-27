@@ -1,0 +1,87 @@
+.Profilecontainer {
+    display: flex;
+    padding: 10vh;
+    gap: 20px;
+    height: 100%;
+    
+}
+
+
+.firstProfile {
+    width: 35%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.firstProfile>img {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    
+}
+
+.firstProfile>h2 {
+    margin-top: 6vh;
+}
+
+.secondProfile {
+    width: 65%;
+    height: 100%;
+    box-shadow: 6px 6px 40px 3px #222222;
+    border-radius: 2vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+}
+
+.secondProfile>h2 {
+    align-self: center;
+    margin-bottom: 6vh;
+    margin-top: 0vh;
+}
+h4{
+    width: 15%;
+}
+.Profiledata {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ProfileinData {
+    display: flex;
+    gap: 15px;
+}
+
+.ProfileinData h5 {
+    color: rgb(7, 6, 6);
+    font-size: medium;
+}
+
+hr {
+    width: 100vh;
+    border: 1px solid black;
+}
+
+.secondProfile>button {
+    height: 6vh;
+    background-color: #0cc48c;
+    width: 40vh;
+    align-self: center;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: medium;
+    margin-top: 2.5vh;
+    box-shadow: 0px 4px 20px #222222;
+    transition: background-color 0.3s ease;
+}
+.secondProfile>button:hover{
+    background-color: #168665;
+}

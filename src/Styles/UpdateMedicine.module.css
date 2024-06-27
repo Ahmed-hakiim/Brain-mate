@@ -1,0 +1,33 @@
+.theMedicine{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.theMedicine>img{
+    width: 35%;
+    height: 60vh;
+    width: 60vh;
+}
+.theMedicine>div>form{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.theMedicine>div>form input{
+    padding: 2vh;
+    border-radius: 50px;
+    border: 2 solid rgb(8, 87, 8);
+    border-color: green;
+}
+
+.theMedicine>div>form>button{
+    width: 50%;
+    align-self: center;
+    padding: 1vh;
+    border: 0;
+    background-color: rgb(95, 189, 95);
+    color: white;
+    border-radius: 50vh;
+    font-size: large;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.navbar{
+    background-color: rgb(245, 226, 226);
+    display: flex;
+    justify-content: space-around;
+    gap: 70vh;
+   position: relative;
+    width: 200vh;
+    border-radius: 8px;
+    top: 0;
+    margin-top: 0;
+}
+.navbar>h2{
+    align-self: flex-start;
+    color:#2a6e5a ;
+    font-weight: 900;
+    cursor: pointer;
+}

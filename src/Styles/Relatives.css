@@ -1,0 +1,46 @@
+.relatives-container{
+  display: flex;
+  gap: 2vh;
+  flex-wrap: wrap;
+  margin-left: 10vh;
+  margin-right: 10vh;
+}
+.relativeCard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    margin: auto;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+  }
+  
+  .relativeImage {
+    width: 100vh;
+    height: 40vh;
+    
+  }
+  .relativeImage>img{
+    height: 40vh;
+    
+  }
+  
+  .relativeName {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 16px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .relativeRelationShip {
+    padding: 16px;
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+  }
+  .relDetails{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }

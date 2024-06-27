@@ -1,0 +1,67 @@
+.naving{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    
+}
+.medicines{
+    display: flex;
+    gap: 5vh;
+    flex-wrap: wrap;
+    margin-left: 20vh;
+}
+.singleMedicine{
+    height: 30vh;
+    width: 40vh;
+    padding: 1vh;
+    background-color: rgb(243, 215, 215);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.inneritems{
+    display: flex;
+    margin-top: 2vh;
+}
+.inneritems svg{
+    color: rgb(76, 175, 76);
+}
+.inneritems p{
+    margin-top: -2px;
+    margin-left: 1vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vh;
+}
+.time{
+    margin-left: -15px !important;
+}
+.addmedicine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+}
+.addmedicine >button{
+    padding: 2vh;
+    background-color: rgb(128, 216, 128);
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 550;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.addmedicine >button:hover{
+    background-color: rgb(104, 187, 104);
+}
+.UD{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -3vh;
+    font-size: large;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
